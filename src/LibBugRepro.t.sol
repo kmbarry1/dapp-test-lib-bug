@@ -2,10 +2,10 @@ pragma solidity ^0.6.7;
 
 import "ds-test/test.sol";
 
-import "./Libraryissue.sol";
+import "./LibBugRepro.sol";
 
 contract LibraryissueTest is DSTest {
-    Libraryissue issue;
+    LibBugRepro issue;
 
     function setUp() public {
         issue = new Libraryissue();
